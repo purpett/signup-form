@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Sign-up form</title>
+</head>
+<body>
+    <form method="POST" action="/signup">
+        <div class="background">
+            <div class="credits">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></div>
+            <div class="black">
+                <img class="logo" src="../signup-form/odin-lined.png">
+                <div class="odin">ODIN</div>
+            </div>
+        </div>
+        <div class="white">
+            <div class="text">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started. </p> 
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            
+            
+        <div class="centre">
+            <p>Let's do this!</p>
+            <div class="form-fields">
+                <div class="name">
+                    <label for="name">FIRST NAME</label>
+                    <input type="text" name="name" id="name" placeholder="Thor">
+                </div>
+                <div class="last-name">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Odinson">
+                </div>
+                <div class="email">    
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="thor@odinson.com">
+                </div>
+                <div class="phone">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" name="phone_number" id="phone_number">
+                </div>
+                <div class="pwd">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" name="pwd" id="pwd" minlength="6">
+                    <div class="error-message">The password is too short (min. 6 characters)</div>
+                </div>
+                <div class="conf-pwd">
+                    <label for="confirm_pwd">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm_pwd" id="confirm_pwd" minlength="6">
+                </div>
+            </div>
+        </div>
+        <div class="last-section">
+            <button type="submit">Create Account</button>
+            <p class="login">Already have an account? <a href="file:///Users/michela/Desktop/the_odin_project/signup-form/index.html">Log in</a></p>
+        </div>
+
+    </form>
+</body>
+</html>
